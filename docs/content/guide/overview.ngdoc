@@ -155,6 +155,19 @@ browser behaved more in line with what is needed for a dynamic web application r
 needed for a static document. Angular has lowered the impedance mismatch to the point where no
 library/framework calls are needed.
 
+# Expanding on the First Example
+
+Go back to the example above, and use the values 377 and 0.0043 for the quantity and price.
+Notice that the total does _not_ say '1.6211', which is the true result, but '$1.62' which is the result after
+going through the currency filter. This filter is one type of "directive" that is provided by Angular.
+
+<intent>
+ Jumping from a simple example to the Zen of Angular was a bit jarring.  The story-line of the invoice can be changed or expanded to expound on additional aspects of Angular.
+ * Explain about the "currency" filter and show its code;
+ * Use ng-repeat and expand on models to allow a set of quantity/cost pairs;
+ * connect a "Pay Invoice" button to mock payment form - to get across routing and 
+</intent>
+
 
 # The Zen of Angular
 
